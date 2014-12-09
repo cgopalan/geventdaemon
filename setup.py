@@ -7,7 +7,7 @@ setup(name="geventdaemon",
       description="gevent daemonizer",
       #package_dir = {'':'lib'},
       #packages=find_packages('lib'),
-      packages=['lib']
+      packages=['lib'],
       zip_safe=False,
       install_requires=[
           'gevent',
