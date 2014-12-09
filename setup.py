@@ -5,8 +5,9 @@ setup(name="geventdaemon",
       author="Antonin Amand",
       author_email="antonin.amand@gmail.com",
       description="gevent daemonizer",
-      package_dir = {'':'lib'},
-      packages=find_packages('lib'),
+      #package_dir = {'':'lib'},
+      #packages=find_packages('lib'),
+      packages=['lib']
       zip_safe=False,
       install_requires=[
           'gevent',
